@@ -75,6 +75,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+backup:
+    type: git
+    repo:
+       github: https://github.com/hojunTech/hojunTech.github.io.git,backup
+       coding: https://git.coding.net/hojunWordPress/hojunWordPress.git,backup
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
@@ -83,9 +89,3 @@ deploy:
     coding: https://git.coding.net/hojunWordPress/hojunWordPress.git
     github: https://github.com/hojunTech/hojunTech.github.io.git
   branch: master
-
-backup:
-    type: git
-    repo:
-       github: https://github.com/hojunTech/hojunTech.github.io.git,backup
-       coding: https://git.coding.net/hojunWordPress/hojunWordPress.git,backup
