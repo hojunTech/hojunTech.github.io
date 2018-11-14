@@ -83,9 +83,9 @@ deploy:
     coding: https://git.coding.net/hojunWordPress/hojunWordPress.git
     # github: https://github.com/hojunTech/hojunTech.github.io.git
   branch: master
-  
+
 backup:
     type: git
     repo:
-       github: https://github.com/hojunTech/hojunTech.github.io.git,backup
+       github2: https://github.com/hojunTech/hojunTech.github.io.git,backup
        coding: https://git.coding.net/hojunWordPress/hojunWordPress.git,backup
